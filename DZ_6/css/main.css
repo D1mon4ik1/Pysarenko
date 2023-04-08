@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+}
+#bod{
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+}
+#bod1{
+    background-image: url("../images/bg2.jpg");
+    background-size: 100%;
+}
+.first{
+    text-align: center;
+    font-size: 45px;
+}
+.second{
+    display: block;
+    margin: auto;
+    border-style: double;
+    border-color: darkorchid;
+    border-width: 10px;
+}
+.third{
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: rgb(255,255,255,0.5);
+}
+
+.four{
+    text-align: center;
+    font-size: 35px;
+}
+.five{
+    display: block;
+    margin: auto;
+    border-style: double;
+    border-color: darkorchid;
+    border-width: 10px;
+    width: 500px;
+}
+.six{
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: rgb(255,255,255,0.5);
+}
+.seven {
+    display: block;
+    margin: auto;
+}
