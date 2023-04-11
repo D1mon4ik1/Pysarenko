@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Створення і використання форм</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1 class="title">Завдання 1</h1>
+        <form action="html/index1.html" target="_blank" class="four">
+            <label for="1" class="first">Введіть ваше ім'я:</label>
+                <input type="text" name="text" id="1" class="third"><br><br>
+            <label for="2" class="first">Введіть назву вашого улюбленого фільму.</label><br>
+                <TEXTAREA name="address" cols="35" rows="3" wrap="soft" id="2" class="third"></TEXTAREA><br><br>
+            <label for="3" class="first">Оберіть стиль музики, який вам подобається: </label>
+                <select name="select" id="3" class="third">
+                    <option value="0" selected="selected" disabled="disabled">- - -</option>
+                    <option value="1">Поп</option>
+                    <option value="2">Хіп хоп</option>
+                    <option value="3">Рок</option>
+                    <option value="4">Джаз</option>
+                    <option value="5">Класична</option>
+                </select><br><br>
+            <a class="first">Оберіть жанри фільмів, які вам подобаються:</a><br>
+                <input id="4" type="checkbox" name="box" value="1">
+                    <label for="4" class="second">Комедія</label><br>
+                <input id="5" type="checkbox" name="box" value="1">
+                    <label for="5" class="second">Жахи</label><br>
+                <input id="6" type="checkbox" name="box" value="1">
+                    <label for="6" class="second">Фантастика</label><br>
+                <input id="7" type="checkbox" name="box" value="1">
+                    <label for="7" class="second">Бойовик</label><br>
+                <input id="8" type="checkbox" name="box" value="1">
+                    <label for="8" class="second">Детектив</label><br><br>
+            <a class="first">Оберіть браузер, яким ви користуєтеся:</a><br>
+                <input id="9" type="radio" name="radio">
+                    <label for="9" class="second">Google Chrome</label><br>
+                <input id="10" type="radio" name="radio">
+                    <label for="10" class="second">Mozilla Firefox</label><br>
+                <input id="11" type="radio" name="radio">
+                    <label for="11" class="second">Microsoft Edge</label><br>
+                <input id="12" type="radio" name="radio">
+                    <label for="12" class="second">Opera</label><br>
+                <input id="13" type="radio" name="radio">
+                    <label for="13" class="second">Safari</label><br><br>
+            <label for="14" class="first">Введіть пароль:</label>
+                <input id="14" type="password" size="8" class="third"><br><br>
+                <input type="file" size="30" class="third"><br><br>
+                <input type="reset" name="name" value="Очистити форму" class="third"><br><br>
+                <input type="submit" name="submit" value="Відправити дані" class="third">
+        </form><br>
+    <h1 class="title">Завдання 2</h1>
+    <form action="html/index2.html" target="_blank">
+        <table class="five">
+            <tr>
+                <th colspan="3" class="seven">Анкета</th>
+            </tr>
+            <tr>
+                <td class="six">1.</td>
+                <td class="eight"><label for="15">Прізвище</label></td>
+                <td class="nine"><input type="text" name="text" id="15" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">2.</td>
+                <td class="eight"><label for="16">Ім'я, по батькові</label></td>
+                <td class="nine"><input type="text" name="text" id="16" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">3.</td>
+                <td class="eight"><label for="17">Число і рік народження</label></td>
+                <td class="nine"><input type="text" name="text" id="17" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">4.</td>
+                <td class="eight"><label for="18">Домашня адреса</label></td>
+                <td class="nine"><input type="text" name="text" id="18" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">5.</td>
+                <td class="eight"><label for="19">Місце навчання (роботи)</label></td>
+                <td class="nine"><input type="text" name="text" id="19" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">6.</td>
+                <td class="eight"><label for="20">Домашній (робочий) телефон</label></td>
+                <td class="nine"><input type="text" name="text" id="20" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">7.</td>
+                <td class="eight"><label for="21">E-mail</label></td>
+                <td class="nine"><input type="text" name="text" id="21" class="ten"></td>
+            </tr>
+            <tr>
+                <td class="six">8.</td>
+                <td class="eight">Область наукових інтересів</td>
+                <td class="eleven">
+                    <label for="22">1.</label>
+                        <input type="text" name="text" id="22" class="twelve"><br>
+                    <label for="23">2.</label>
+                        <input type="text" name="text" id="23" class="twelve"><br>
+                    <label for="24">3.</label>
+                        <input type="text" name="text" id="24" class="twelve"><br>
+                    <label for="25">4.</label>
+                        <input type="text" name="text" id="25" class="twelve"><br>
+                    <label for="26">5.</label>
+                        <input type="text" name="text" id="26" class="twelve"><br>
+                    <label for="27">6.</label>
+                        <input type="text" name="text" id="27" class="twelve">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="six">
+                    <input type="reset" name="name" value="Відмінити введене"><br><br>
+                    <input type="submit" name="submit" value="Надіслати дані та перейти до 2 етапу реєстрації" class="thirteen">
+                </td>
+            </tr>
+        </table>
+    </form><br>
+    <h1 class="title">Завдання 3</h1>
+        <form action="html/index3.html" target="_blank">
+            <table class="fourteen">
+                <tr>
+                    <th colspan="2" class="seventeen">Замовлення товару</th>
+                </tr>
+                <tr>
+                    <td class="fifteen"><label for="28">Номер банківського рахунку:</label></td>
+                    <td class="sixteen"><input type="text" name="text" id="28" class="eighteen"></td>
+                </tr>
+                <tr>
+                    <td class="fifteen"><label for="29">Номер телефону:</label></td>
+                    <td class="sixteen"><input type="text" name="text" id="29" class="eighteen"></td>
+                <tr>
+                    <td class="fifteen"><label for="30">Список товарів:</label></td>
+                    <td class="sixteen"><select name="select" id="30" size="10" multiple>
+                        <option value="1">Навушники</option>
+                        <option value="2">Клавіатура</option>
+                        <option value="3">Миша</option>
+                        <option value="4">Веб камера</option>
+                        <option value="5">Мікрофон</option>
+                        <option value="6">Монітор</option>
+                        <option value="7">Системний блок</option>
+                        <option value="8">Акустична система</option>
+                        <option value="9">Крісло</option>
+                        <option value="10">Принтер</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fifteen"><label for="31">Поле для коментарів:</label></td>
+                    <td class="sixteen"><TEXTAREA name="address" cols="35" rows="3" wrap="soft" id="31" class="eighteen"></TEXTAREA></td>
+                </tr>
+                <tr>
+                    <td class="fifteen">Оберіть спосіб оплати:</td>
+                    <td class="nineteen"><input id="32" type="radio" name="radio">
+                            <label for="32">готівковий</label>
+                        <input id="33" type="radio" name="radio">
+                            <label for="33">безготівковий</label></td>
+                </tr>
+                <tr>
+                    <td class="fifteen">Яку додаткову інформацію ви б хотіли отримати?</td>
+                    <td class="nineteen"><input id="34" type="checkbox" name="box" value="1">
+                        <label for="34">Дані про залишки на рахунку.</label><br>
+                    <input id="35" type="checkbox" name="box" value="1">
+                        <label for="35">Список останніх виплат по рахунку.</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="fifteen"><input type="reset" name="name" value="Очистити форму" class="twenty">
+                        <input type="submit" name="submit" value="Замовити товар" class="twenty"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>

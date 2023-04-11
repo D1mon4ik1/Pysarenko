@@ -1,0 +1,124 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+#bod{
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+}
+#paragraph{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    color: darkviolet;
+    margin-top: 300px;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+}
+.first{
+    font-size: 20px;
+}
+.second{
+    font-size: 17px;
+    font-style: italic;
+}
+.third{
+    font-size: 17px;
+}
+.four{
+    border-style: groove;
+    border-width: 10px;
+    border-color: orange;
+    padding: 20px;
+    margin-left: 470px;
+    width: 500px;
+    background: rgba(96, 255, 90, 0.62);
+}
+.five{
+    border: 2px outset darkgray;
+    width: 550px;
+    margin: auto;
+    border-collapse: separate;
+    background: #d2fdfd;
+}
+.six{
+    border: 2px inset darkgray;
+    padding: 7px;
+    vertical-align: top;
+    width: 5%;
+}
+.eight{
+    border: 2px inset darkgray;
+    padding: 7px;
+    vertical-align: top;
+    width: 40%;
+}
+.nine{
+    border: 2px inset darkgray;
+    padding: 7px;
+    vertical-align: top;
+    width: 50%;
+}
+.eleven{
+    border: 2px inset darkgray;
+    vertical-align: top;
+    text-align: center;
+    padding: 7px 7px 20px;
+}
+.seven{
+    border: 2px inset darkgray;
+    padding: 7px;
+    color: red;
+    font-size: xx-large;
+}
+.ten{
+    width: 97%;
+}
+.twelve{
+    width: 75%;
+}
+.thirteen{
+    margin-bottom: 15px;
+}
+.fourteen{
+    border: 5px double blue;
+    width: 600px;
+    margin: auto;
+    border-collapse: separate;
+    background: #ffee8d;
+}
+.fifteen{
+    border: 2px dashed #07ff00;
+    padding: 7px;
+    vertical-align: center;
+    width: 40%;
+    text-align: center;
+}
+.sixteen{
+    border: 2px dashed #07ff00ff;
+    padding: 7px;
+    vertical-align: top;
+    width: auto;
+    text-align: center ;
+}
+.seventeen {
+    border: 2px dashed #07b200;
+    padding: 7px;
+    color: #000dd0;
+    font-size: 30px;
+}
+.eighteen {
+    width: 90%;
+}
+.nineteen{
+    border: 2px dashed #07ff00ff;
+    padding: 7px;
+    vertical-align: top;
+    width: auto;
+}
+.twenty{
+    margin: 15px;
+    font-size: 17px;
+}
